@@ -38,7 +38,7 @@ def list_tasks(show_all: bool) -> None:
     """Print tasks to the terminal."""
     tasks = load_tasks()
     if not tasks:
-        print("No tasks yet.")
+        print("No tasks yet. Use 'add' to create one.")
         return
 
     for task in tasks:
