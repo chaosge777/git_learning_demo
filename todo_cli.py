@@ -75,7 +75,7 @@ def build_parser() -> argparse.ArgumentParser:
         help="Show completed tasks as well",
     )
 
-    done_parser = subparsers.add_parser("done", help="Complete a task")
+    done_parser = subparsers.add_parser("done", help="Mark a task as done")
     done_parser.add_argument("task_id", type=int, help="Task id")
 
     return parser
