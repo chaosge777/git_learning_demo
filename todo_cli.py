@@ -72,7 +72,7 @@ def build_parser() -> argparse.ArgumentParser:
     list_parser.add_argument(
         "--all",
         action="store_true",
-        help="Show completed tasks as well",
+        help="Show all tasks including completed ones",
     )
 
     done_parser = subparsers.add_parser("done", help="Mark a task as done")
