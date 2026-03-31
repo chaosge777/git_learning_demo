@@ -62,7 +62,7 @@ def mark_done(task_id: int) -> None:
 
 def build_parser() -> argparse.ArgumentParser:
     """Create the CLI argument parser."""
-    parser = argparse.ArgumentParser(description="Simple todo tool")
+    parser = argparse.ArgumentParser(description="Simple todo tool for daily tasks")
     subparsers = parser.add_subparsers(dest="command", required=True)
 
     add_parser = subparsers.add_parser("add", help="Add a task")
