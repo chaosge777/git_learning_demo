@@ -1,2 +1,3 @@
-tasks.json
-__pycache__/
+*
+!.gitignore
+!todo_cli.py
